@@ -7,5 +7,10 @@ typedef struct node{
 }
 node;
 int main(void){
-    node* list = null
+    node* list = NULL;
+    node *n=malloc(sizeof(node));
+    if(n==NULL){
+        free n;
+        return 1;
+    }
 }
