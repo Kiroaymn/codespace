@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-tybedef struct node{
+typedef struct node{
     int number;
     struct node* next;
 }
