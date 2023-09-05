@@ -36,11 +36,10 @@ int main(void){
         list->next->next = n ;
         for(node* tmp = list; tmp!=NULL; tmp=tmp->next){
             printf("%i \n",tmp->number);
-            while (list!= NULL){
+        }
+  while (list!= NULL){
                 node* tmp= list->next;
                 free (list);
                 list=tmp;
             }
-        }
-
 }
