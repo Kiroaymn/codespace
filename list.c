@@ -15,4 +15,6 @@ int main(void){
         n->number =1 ;
         n->next = NULL ;
         list = n;
+
+        n= ma
 }
