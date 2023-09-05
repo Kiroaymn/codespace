@@ -16,5 +16,11 @@ int main(void){
         n->next = NULL ;
         list = n;
 
-        n= ma
+        n= malloc(sizeof(node));
+        if(n==NULL){
+            free list;
+            return 1;
+        }
+        n->number = 2;
+        
 }
