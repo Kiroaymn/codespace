@@ -7,5 +7,5 @@ typedef struct node{
 }
 node;
 int main(void){
-
+    node* list = null
 }
