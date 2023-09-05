@@ -18,9 +18,9 @@ int main(void){
 
         n= malloc(sizeof(node));
         if(n==NULL){
-            free list;
+            free (list);
             return 1;
         }
         n->number = 2;
-        
+
 }
