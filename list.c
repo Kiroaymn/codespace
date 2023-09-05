@@ -22,5 +22,8 @@ int main(void){
             return 1;
         }
         n->number = 2;
+        n->next = NULL;
+        list->next = n ;
+        
 
 }
